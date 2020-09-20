@@ -30,10 +30,10 @@ class App < Sinatra::Base
     answer = "Unable to perform this operation"
     
     case params[:operation] 
-    when 'add' 
-    when 'subtract' 
-    when 'multiply' 
-    when 'divide'
+      when 'add' 
+      when 'subtract' 
+      when 'multiply' 
+      when 'divide'
     
   end
 
