@@ -27,6 +27,8 @@ class App < Sinatra::Base
     number1 = param[:number1].to_i 
     number2 = param[:number2].to_i 
     
+    answer = "Unable to perform this operation"
+    
     
   end
 
