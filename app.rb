@@ -29,7 +29,8 @@ class App < Sinatra::Base
     
     answer = "Unable to perform this operation"
     
-    case
+    case params[:operation] 
+    
   end
 
 end
