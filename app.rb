@@ -20,7 +20,7 @@ class App < Sinatra::Base
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
-    "#{param[:word1]}"
+    "#{param[:word1]} #{param[:word2]} #{param[:word3]} #{param[:word4]} #{param[:word5]}"
   end
 
 end
